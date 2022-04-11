@@ -1,0 +1,160 @@
+//colors variables
+$lGrey: #f5f5f5;
+$taupe: #c5a880;
+$mGrey: #a9a9a9;
+$cGrey: #ebecee;
+$royalArmy: #222222;
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Della+Respira&family=Montserrat:wght@400;500;700&display=swap");
+.msera {
+  font-family: "Montserrat", sans-serif;
+}
+.della {
+  font-family: "Della Respira", serif;
+}
+.cinzel {
+  font-family: "Cinzel", serif;
+}
+.text-dark {
+  color: $royalArmy;
+}
+.text-taupe {
+  color: $taupe;
+}
+.rsv-input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  color: $lGrey;
+}
+//basics style
+body {
+  font-family: "Cinzel", serif;
+  background-color: $lGrey;
+  .btn-main {
+    background-color: $taupe;
+    color: $royalArmy;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+    border: none;
+    &:hover {
+      background-color: $mGrey;
+      transition: 0.5s ease-out;
+    }
+  }
+  .btn-full {
+    color: $taupe;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    &:hover {
+      color: $lGrey;
+      transition: 0.5s;
+    }
+  }
+  .btn-wide {
+    width: 100%;
+  }
+}
+//navbar
+.bg-nav {
+  background-color: $royalArmy;
+}
+.autbg {
+  background: url(../img/visualsofdana-T5pL6ciEn-I-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+//jumbotron
+.jumbotron {
+  background: url(../img/visualsofdana-T5pL6ciEn-I-unsplash.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  h1 {
+    margin: auto;
+    font-weight: 700;
+    text-shadow: 6px 5px 6px #3d3b3a;
+  }
+}
+//form
+.form-box {
+  background-color: $royalArmy;
+  color: $lGrey;
+  padding: 20px;
+  h3 {
+    color: $taupe;
+  }
+  .text-input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    color: $lGrey;
+  }
+  label {
+    color: $taupe;
+  }
+}
+//date-form
+.date-form {
+  background-color: $royalArmy;
+  padding: 20px;
+  margin-top: -120px;
+  .text-input {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+  }
+}
+//room
+.room-regular {
+  background-color: $taupe;
+  height: 400px;
+  padding: 50px;
+  background: url("../img/christopher-jolly-GqbU78bdJFM-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: -1px 24px 39px 0px rgba(179, 179, 179, 0.83);
+  -webkit-box-shadow: -1px 24px 39px 0px rgba(179, 179, 179, 0.83);
+  -moz-box-shadow: -1px 24px 39px 0px rgba(179, 179, 179, 0.83);
+  .room-regural-title {
+    color: $lGrey;
+    .room-regural-text {
+      display: block;
+      color: $lGrey;
+    }
+  }
+}
+//footer
+.footer {
+  width: 100%;
+  padding: 20px;
+}
+.wired-place {
+  margin-left: 50px;
+  margin-top: -55px;
+}
+.img-about {
+  img {
+    box-shadow: 10px 21px 37px 8px rgba(199, 199, 199, 0.75);
+    -webkit-box-shadow: 10px 21px 37px 8px rgba(199, 199, 199, 0.75);
+    -moz-box-shadow: 10px 21px 37px 8px rgba(199, 199, 199, 0.75);
+  }
+}
+//card-room
+.card-room {
+  padding: 20px;
+  border: none;
+  background-color: $lGrey;
+}
